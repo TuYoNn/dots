@@ -4,11 +4,14 @@
 
 # terminal emulator
 super + Return
-	st
+	urxvt
 
 # program launcher
 alt + @space
 	rofi -show drun
+
+super + p 
+	pkill polybar && polybar top
 
 # shutdown script
 super + @backspace
@@ -26,7 +29,7 @@ super + {d}
     discord
 
 super + {shift + d}
-    st -e cordless
+    urxvt -e cordless
 #
 # bspwm hotkeys
 #
