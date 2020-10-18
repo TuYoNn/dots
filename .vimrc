@@ -5,6 +5,7 @@ set undofile
 map <C-c> :NERDTree<CR>
 map qq :q!<Enter>
 map wq :wq<Enter>
+map ww :w!<Enter>
 call plug#begin('~/.vim/plugged')
 	Plug 'dracula/vim'
 	Plug 'vim-airline/vim-airline'
