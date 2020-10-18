@@ -12,14 +12,14 @@ exec --no-startup-id picom
 exec --no-startup-id nitrogen --restore
 
 # custom bindings
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec lxterminal
 bindsym $mod+q kill
 bindsym $altkey+space exec rofi -show drun -font "Noto Sans 11" -width 60 -height 5
-bindsym $mod+shift+d exec urxvt -e cordless
+bindsym $mod+shift+d exec lxterminal -e cordless
 bindsym $mod+BackSpace exec sh ~/.config/i3/shutdownmenu.sh
 bindsym Print exec xfce4-screenshooter -i
 bindsym $mod+d exec discord 
-bindsym $mod+shift+f exec urxvt -e ranger
+bindsym $mod+shift+f exec lxterminal -e ranger
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
